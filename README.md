@@ -1,0 +1,1 @@
+# dedicatted.github.io
