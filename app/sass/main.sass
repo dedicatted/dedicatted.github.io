@@ -1,0 +1,337 @@
+@import "bourbon"
+@import "vars"
+@import "libs"
+
+//Custom styles here
+.s-1
+	background-color: #2fb44b
+	padding-top: 60px
+	padding-bottom: 85px
+	background-image: url(../img/banner-pic.png)
+	background-repeat: no-repeat
+	background-position:  100% 105%
+	.s1-text
+		max-width: 450px
+		font-size: 19px
+		color: #fff
+		font-family: "OpenSansRegular"
+		line-height: 28px
+		margin-bottom: 46px
+		span
+			font-weight: bold
+	.button	
+		color: #2fb44b
+.button
+	font-weight: bold
+	font-size: 18px
+	background-color: #fff
+	padding: 12px 40px
+	display: inline-block
+	border-radius: 3px
+	transition: all .3s ease
+	&:hover
+		background-color: darken(#fff,10%)
+.services
+	padding-top: 96px
+	padding-bottom: 20px
+	.services-item
+		width: 33%
+		margin: 0 auto
+		text-align: center
+		display: inline-block
+		margin-bottom: 76px
+		vertical-align: top
+	.services-info
+		max-width: 247px
+		margin: 0 auto
+		font-size: 15px
+		line-height: 20px
+		font-family: "OpenSansRegular"
+	.services-img
+		margin-bottom: 30px
+		max-height: 102px
+		img
+			max-height: 100%
+			width: auto
+	.services-title
+		color: #222222
+		font-size: 22px
+		font-family: "OpenSansRegular"
+		margin-bottom: 20px
+.section-title
+	text-align: center
+	font-size: 30px
+	line-height: 36px
+	color: #222222
+	margin-bottom: 82px
+.technologies
+	background-color: #f4f4f4
+	padding-top: 120px
+	font-family: "OpenSansRegular"
+h2
+	font-size: 24px
+	color: #222222
+	font-family: "OpenSansRegular"
+	font-weight: normal
+h3
+	color: #3e3e3e
+	font-size: 15px
+	font-family: "OpenSansRegular"
+	font-weight: normal
+	line-height: 24px
+	margin-bottom: 35px
+.technologies-img
+	width: auto
+	height: 63px
+	img
+		max-height: 100%
+.technologies-title
+	font-weight: bold
+	font-size: 18px
+	line-height: 18px
+	margin-bottom: 16px
+	color: #222222
+.technologies-info
+	font-size: 14px
+	line-height: 24px
+	color: #222222
+.technologies-item
+	border-radius: 4px
+	width: 48%
+	margin-right: 4%
+	float: left
+	padding: 40px	34px
+	box-sizing: border-box
+	border: solid 1px #dadada
+	margin-bottom: 38px
+	&:nth-child(2n)
+		margin-right: 0
+.wrapper
+	width: 100%
+	padding-bottom: 62px
+	margin-bottom: 55px
+	position: relative
+	@include clearfix()
+	&:last-child
+		margin-bottom: 0
+.border-row
+	height: 1px
+	width: 100%
+	background-color: #dddddd
+	position: absolute
+	left: 0
+	bottom: 0
+.docker-title
+	font-size: 19px
+	color: #00000c
+	display: inline-block
+	vertical-align: top
+	padding-top: 12px
+.docker-img
+	display: inline-block
+	margin-right: 20px
+	margin-bottom: 10px
+.docker-info
+	font-size: 14px
+	line-height: 22px
+.docker-item
+	min-height: 191px
+	max-width: 300px
+	padding: 25px 45px
+	border: solid 1px #dadada
+	float: left
+	width: 30%
+	margin-right: 5%
+	box-sizing: border-box
+	border-radius: 4px
+	margin-bottom: 38px
+	&:nth-child(5)
+		margin-right: 0
+.tools-item
+	width: 30%
+	float: left
+	margin-right: 5%
+	display: inline-block
+	vertical-align: top
+	margin-bottom: 30px
+	&:last-child
+		margin-right: 0
+.tools-item
+	text-align: center
+.tools-title
+	color: #00000d
+	font-size: 19px
+	font-weight: bold
+	margin-bottom: 10px
+.tools-info
+	color: #3e3e3e
+	font-size: 14px
+	line-height: 24px
+	max-width: 90%
+	margin: 0 auto
+.tools-img
+	margin-bottom: 10px
+	max-height: 60px
+	img
+		max-height: 100%
+		width: auto
+.how-works
+	padding-top: 120px
+	padding-bottom: 70px
+	.section-title
+		margin-bottom: 40px
+	h3
+		font-size: 14px
+		color: #3e3e3e
+		margin-bottom: 40px
+.works-item
+	max-width: 227px
+	width: 100%
+	float: left
+	margin-right: 24px
+	color: #fff
+	background-color: #f7ba36
+	text-align: center
+	padding: 30px 15px 20px 15px
+	box-sizing: border-box
+	margin-bottom: 30px
+	font-family: "OpenSansRegular"
+	&:last-child
+		margin-right: 0
+	ul
+		margin-bottom: 25px
+	li
+		font-size: 17px
+		line-height: 30px
+	span
+		font-weight: bold
+	.button
+		max-width: 100%
+		display: block
+		color: #f7ba36
+.works-item-title
+	font-size: 26px 
+	font-weight: bold
+	line-height: 35px
+	margin-bottom: 20px
+	text-align: center
+.style1
+	background-color: #bc8cbf
+	.button
+		color: #bc8cbf
+.style2
+	background-color: #37aea8
+	.button
+		color: #37aea8
+.style3
+	background-color: #2fb44b
+	.button
+		color: #2fb44b
+.works-item-wrapper
+	@include clearfix()
+	text-align: center
+	margin: 0 auto
+.contact
+	padding-top: 120px
+	padding-bottom: 170px
+	@include clearfix()
+	background-color: #f4f4f4
+	.section-title
+		text-align: left
+		margin-bottom: 60px
+	.left-list
+		float: left
+		margin-bottom: 70px
+	li
+		color: #3c3c3c
+		font-size: 17px
+		line-height: 26px
+		margin-bottom: 10px
+	.icon
+		display: inline-block
+		margin-right: 20px
+		padding-top: 2px
+	span
+		font-family: "OpenSansRegular"
+		vertical-align: top
+.form-right
+	float: right
+	width: 38%
+	p
+		font-size: 16px
+		margin-bottom: 10px
+	span
+		color: red
+	input
+		width: 100%
+		margin-bottom: 26px
+		height: 50px
+		background-color: #f4f4f4
+		border: 1px solid #cdcdcd
+		box-sizing: border-box
+		border-radius: 3px
+	input[type="text"]
+		padding-left: 15px
+		font-size: 20px
+		color: #222222
+	textarea
+		width: 100%
+		height: 211px
+		background-color: #f4f4f4
+		border: 1px solid #cdcdcd
+		border-radius: 3px
+		margin-bottom: 50px
+		padding-left: 15px
+		font-size: 15px
+		color: #222222
+		padding-top: 15px
+		box-sizing: border-box
+		font-size: 20px
+		font-family: "roboto"
+	.submit
+		width: 198px
+		height: 48px
+		background-color: #2fb44b
+		border-radius: 3px
+		display: inline-block
+		margin: 0 auto
+		color: #fff
+		font-weight: bold
+		font-size: 18px
+		cursor: pointer
+.form-title
+	text-align: center
+	color: #222222
+	font-size: 22px
+	line-height: 36px
+	margin-bottom: 38px
+.submit-wrapper
+	text-align: center
+.map
+	float: left
+	min-width: 434px
+.map-title
+	color: #3c3c3c
+	font-size: 22px
+	line-height: 26px
+	margin-bottom: 40px
+.footer
+	padding-top: 55px
+	padding-bottom: 50px
+	background-color: #464646
+	font-family: "OpenSansRegular"
+	p
+		color: #939393
+		font-size: 13px
+		line-height: 20px
+		margin-bottom: 50px
+	.copirait
+		font-size: 14px
+		line-height: 24px
+		color: #6f6f6f
+
+section, footer
+	padding-left: 15px
+	padding-right: 15px
+@import "media"
+@import "app/libs/font-awesome/scss/font-awesome"
