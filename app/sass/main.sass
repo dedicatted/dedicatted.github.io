@@ -1,0 +1,624 @@
+@import "bourbon"
+@import "vars"
+@import "libs"
+
+body
+	margin: 0
+
+//Custom styles here
+.s-1
+	background-color: #2fb44b
+	padding-top: 60px
+	padding-bottom: 85px
+	background-image: url(../img/banner-pic.png)
+	background-repeat: no-repeat
+	background-position:  100% 105%
+	.s1-text
+		max-width: 450px
+		font-size: 19px
+		color: #fff
+		font-family: "OpenSansRegular"
+		line-height: 28px
+		margin-bottom: 46px
+		span
+			font-weight: bold
+	.button	
+		color: #2fb44b
+.button
+	font-weight: bold
+	font-size: 18px
+	background-color: #fff
+	padding: 12px 40px
+	display: inline-block
+	border-radius: 3px
+	transition: all .3s ease
+	&:hover
+		background-color: darken(#fff,10%)
+.services
+	padding-top: 96px
+	padding-bottom: 20px
+	.services-item
+		width: 33%
+		margin: 0 auto
+		text-align: center
+		display: inline-block
+		margin-bottom: 76px
+		vertical-align: top
+	.services-info
+		max-width: 247px
+		margin: 0 auto
+		font-size: 15px
+		line-height: 20px
+		font-family: "OpenSansRegular"
+	.services-img
+		margin-bottom: 30px
+		max-height: 102px
+		img
+			max-height: 100%
+			width: auto
+	.services-title
+		color: #222222
+		font-size: 22px
+		font-family: "OpenSansRegular"
+		margin-bottom: 20px
+.section-title
+	text-align: center
+	font-size: 30px
+	line-height: 36px
+	color: #222222
+	margin-bottom: 82px
+.technologies
+	background-color: #f4f4f4
+	padding-top: 120px
+	font-family: "OpenSansRegular"
+h2
+	font-size: 24px
+	color: #222222
+	font-family: "OpenSansRegular"
+	font-weight: normal
+h3
+	color: #3e3e3e
+	font-size: 15px
+	font-family: "OpenSansRegular"
+	font-weight: normal
+	line-height: 24px
+	margin-bottom: 35px
+.technologies-img
+	width: auto
+	height: 63px
+	img
+		max-height: 100%
+.technologies-title
+	font-weight: bold
+	font-size: 18px
+	line-height: 18px
+	margin-bottom: 16px
+	color: #222222
+.technologies-info
+	font-size: 14px
+	line-height: 24px
+	color: #222222
+.technologies-item
+	border-radius: 4px
+	width: 48%
+	margin-right: 4%
+	float: left
+	padding: 40px	34px
+	box-sizing: border-box
+	border: solid 1px #dadada
+	margin-bottom: 38px
+	&:nth-child(2n)
+		margin-right: 0
+.wrapper
+	width: 100%
+	padding-bottom: 62px
+	margin-bottom: 55px
+	position: relative
+	@include clearfix()
+	&:last-child
+		margin-bottom: 0
+.border-row
+	height: 1px
+	width: 100%
+	background-color: #dddddd
+	position: absolute
+	left: 0
+	bottom: 0
+.docker-title
+	font-size: 19px
+	color: #00000c
+	display: inline-block
+	vertical-align: top
+	padding-top: 12px
+.docker-img
+	display: inline-block
+	margin-right: 20px
+	margin-bottom: 10px
+.docker-info
+	font-size: 14px
+	line-height: 22px
+.docker-item
+	min-height: 191px
+	max-width: 300px
+	padding: 25px 45px
+	border: solid 1px #dadada
+	float: left
+	width: 30%
+	margin-right: 5%
+	box-sizing: border-box
+	border-radius: 4px
+	margin-bottom: 38px
+	&:nth-child(5)
+		margin-right: 0
+.tools-item
+	width: 30%
+	float: left
+	margin-right: 5%
+	display: inline-block
+	vertical-align: top
+	margin-bottom: 30px
+	&:last-child
+		margin-right: 0
+.tools-item
+	text-align: center
+.tools-title
+	color: #00000d
+	font-size: 19px
+	font-weight: bold
+	margin-bottom: 10px
+.tools-info
+	color: #3e3e3e
+	font-size: 14px
+	line-height: 24px
+	max-width: 90%
+	margin: 0 auto
+.tools-img
+	margin-bottom: 10px
+	max-height: 60px
+	img
+		max-height: 100%
+		width: auto
+.how-works
+	padding-top: 120px
+	padding-bottom: 70px
+	.section-title
+		margin-bottom: 40px
+	h3
+		font-size: 14px
+		color: #3e3e3e
+		margin-bottom: 40px
+.works-item
+	max-width: 227px
+	width: 100%
+	float: left
+	margin-right: 24px
+	color: #fff
+	background-color: #f7ba36
+	text-align: center
+	padding: 30px 15px 20px 15px
+	box-sizing: border-box
+	margin-bottom: 30px
+	font-family: "OpenSansRegular"
+	&:last-child
+		margin-right: 0
+	ul
+		margin-bottom: 25px
+	li
+		font-size: 17px
+		line-height: 30px
+	span
+		font-weight: bold
+	.button
+		max-width: 100%
+		display: block
+		color: #f7ba36
+.works-item-title
+	font-size: 26px 
+	font-weight: bold
+	line-height: 35px
+	margin-bottom: 20px
+	text-align: center
+.style1
+	background-color: #bc8cbf
+	.button
+		color: #bc8cbf
+.style2
+	background-color: #37aea8
+	.button
+		color: #37aea8
+.style3
+	background-color: #2fb44b
+	.button
+		color: #2fb44b
+.works-item-wrapper
+	@include clearfix()
+	text-align: center
+	margin: 0 auto
+.contact
+	padding-top: 120px
+	padding-bottom: 170px
+	@include clearfix()
+	background-color: #f4f4f4
+	.section-title
+		text-align: left
+		margin-bottom: 60px
+	.left-list
+		float: left
+		margin-bottom: 70px
+	li
+		color: #3c3c3c
+		font-size: 17px
+		line-height: 26px
+		margin-bottom: 10px
+	.icon
+		display: inline-block
+		margin-right: 20px
+		padding-top: 2px
+	span
+		font-family: "OpenSansRegular"
+		vertical-align: top
+.form-right
+	float: right
+	width: 38%
+	p
+		font-size: 16px
+		margin-bottom: 10px
+	span
+		color: red
+	input
+		width: 100%
+		margin-bottom: 26px
+		height: 50px
+		background-color: #f4f4f4
+		border: 1px solid #cdcdcd
+		box-sizing: border-box
+		border-radius: 3px
+	input[type="text"]
+		padding-left: 15px
+		font-size: 20px
+		color: #222222
+	textarea
+		width: 100%
+		height: 211px
+		background-color: #f4f4f4
+		border: 1px solid #cdcdcd
+		border-radius: 3px
+		margin-bottom: 50px
+		padding-left: 15px
+		font-size: 15px
+		color: #222222
+		padding-top: 15px
+		box-sizing: border-box
+		font-size: 20px
+		font-family: "roboto"
+	.submit
+		width: 198px
+		height: 48px
+		background-color: #2fb44b
+		border-radius: 3px
+		display: inline-block
+		margin: 0 auto
+		color: #fff
+		font-weight: bold
+		font-size: 18px
+		cursor: pointer
+.form-title
+	text-align: center
+	color: #222222
+	font-size: 22px
+	line-height: 36px
+	margin-bottom: 38px
+.submit-wrapper
+	text-align: center
+.map
+	float: left
+	min-width: 434px
+.map-title
+	color: #3c3c3c
+	font-size: 22px
+	line-height: 26px
+	margin-bottom: 40px
+.footer
+	padding-top: 55px
+	padding-bottom: 50px
+	background-color: #464646
+	font-family: "OpenSansRegular"
+	p
+		color: #939393
+		font-size: 13px
+		line-height: 20px
+		margin-bottom: 50px
+	.copirait
+		font-size: 14px
+		line-height: 24px
+		color: #6f6f6f
+/*blog start*/
+.breadcrumbs
+	color: #878686
+	font-family: "OpenSansRegular"
+	margin-bottom: 28px
+	li
+		display: inline-block
+		margin-right: 30px
+		position: relative
+		font-size: 20px
+		&::after
+			position: absolute
+			content: ''
+			width: 7px
+			height: 14px
+			background-image: url(../img/bradcrambs-icon.png)
+			right: -21px
+			top: 10px
+		&:last-child
+			&::after
+				display: none
+	.active
+		color: #222222
+.blog-wrapper
+	.header
+		border-bottom: 2px solid #dddddd
+		margin-bottom: 28px
+.post-wrapper
+	background-color: #f4f4f4
+	padding-top: 40px
+	padding-bottom: 48px
+	font-family: "OpenSansRegular"
+	&:nth-child(2n)
+		background-color: #fff
+.post-title
+	margin-bottom: 15px
+	a
+		color: #2fb44b
+		font-size: 22px
+		line-height: 32px
+		transition: all .3s ease
+		&:hover
+			color: darken(#2fb44b,10%)
+.post-info
+	margin-bottom: 15px
+	span
+		font-size: 14px
+		line-height: 22px
+		color: #8d8d8d
+	.date
+		margin-right: 8px
+		text-transform: uppercase
+	.time
+		margin-right: 70px
+	.author
+		margin-right: 70px
+		position: relative
+		&::after
+			position: absolute
+			content: ''
+			background-image: url(../img/user-icon.png)
+			width: 16px
+			height: 16px
+			left: -22px
+			top: 1px
+	.views
+		position: relative
+		&::after
+			position: absolute
+			content: ''
+			background-image: url(../img/comment-icon.png)
+			width: 16px
+			height: 16px
+			left: -22px
+			top: 1px
+.post-text
+	color: #3e3e3e
+	font-size: 15px
+	line-height: 26px
+.paggination
+	text-align: center
+	padding-bottom: 125px
+	padding-top: 40px
+	li
+		display: inline-block
+		vertical-align: middle
+		width: 38px
+		font-size: 16px
+		font-weight: bold
+		color: black
+		&:last-child,&:first-child
+			a
+				background-color: #b1b1b1
+				&:hover
+					background-color: #b7dcaa
+	a
+		color: #3e3e3e
+		font-size: 16px
+		font-weight: bold
+		display: block
+		line-height: 38px
+		width: 38px
+		background-color: #dcdcdc
+		text-align: center
+		transition: all .3s ease
+		&:hover
+			background-color: #b7dcaa
+	.active
+		a
+			background-color: #b7dcaa
+/*blog end*/
+/*post start*/
+.post-html
+	font-family: "OpenSansRegular"
+	.comments-wrapper
+		padding-top: 50px
+	.form-right
+		float: none
+		padding-bottom: 72px
+		border-bottom: 1px solid #dfdfdf
+		width: auto
+		p
+			color: #3c3c3c
+			font-size: 16px
+			font-weight: normal
+		.form-title
+			text-align: left
+			font-size: 30px
+			color: #222222
+		textarea
+			max-width: 620px
+			height: 150px
+			margin-bottom: 20px
+		input[type="text"]
+			max-width: 620px
+		.submit-wrapper
+			max-width: 620px
+	.header
+		border-bottom: 2px solid #dddddd
+		margin-bottom: 28px
+	.breadcrumbs
+		border-bottom: 1px solid #dfdfdf
+		margin-bottom: 0
+		padding-bottom: 28px
+	.post-wrapper
+		background-color: #fff
+	.post-title
+		color: #2fb44b
+		font-size: 28px
+		line-height: 42px
+	.post-text
+		font-size: 16px
+		line-height: 30px
+		color: #3e3e3e
+		border-bottom: 1px solid #dfdfdf
+		span
+			display: block
+			margin-bottom: 40px
+	h2
+		margin-top: 10px
+	h3
+		font-size: 16px
+		line-height: 30px
+		color: #3e3e3e
+	.list-wrapper	
+		border-bottom: 1px solid #dfdfdf
+		padding-bottom: 15px
+		margin-bottom: 40px
+	.list-wrapper-item
+		margin-bottom: 30px
+		span
+			display: inline-block
+			vertical-align: top
+			color: #2fb44b
+			font-size: 16px
+			font-family: "OpenSansBold"
+			padding-top: 3px
+			width: 14px
+			padding-right: 15px
+			position: absolute
+		h3
+			display: inline-block
+			vertical-align: top
+			margin: 0
+			max-width: 940px
+			margin-left: 30px
+			span
+				color: #3e3e3e
+				padding: 0
+				width: auto
+				position: relative
+
+h4
+	color: #3e3e3e
+	font-size: 19px
+	line-height: 30px
+	font-family: "OpenSansBold"
+.post-list
+	padding-bottom: 45px
+	border-bottom: 1px solid #dfdfdf
+	margin-bottom: 50px
+	li
+		font-size: 19px
+		line-height: 44px
+		color: #3e3e3e
+		margin-left: 25px
+		position: relative
+		&::after
+			position: absolute
+			content: ''
+			width: 7px
+			height: 7px
+			background-image: url(../img/list-icon.png)
+			top: 19px
+			left: -20px
+.foto
+	margin-bottom: 35px
+	img
+		max-width: 100%
+.code-wrapper
+	padding: 42px 0 42px 42px
+	background-color: #ebebeb
+	margin-bottom: 50px
+	span
+		display: block
+		color: #6e6e6e
+		font-size: 15px
+		line-height: 32px
+.seo-list
+	padding-bottom: 50px
+	border-bottom: 1px solid #dfdfdf
+	margin-bottom: 90px
+	h3
+		margin-bottom: 0px
+		margin-top: 8px
+		padding-left: 40px
+		position: relative
+		&::after
+			position: absolute
+			content: ''
+			width: 20px
+			height: 1px
+			top: 15px
+			left: 0
+			background-color: #d2d2d2
+		&:last-child
+			margin-top: 28px
+			padding-left: 0
+			&::after
+				display: none
+.comments-item
+	@include clearfix()
+	position: relative
+	.comment-img
+		position: absolute
+		top: 0
+		left: 0
+		padding-top: 5px
+	.comment-info
+		display: inline-block
+		vertical-align: top
+		margin-left: 65px
+	.name
+		color: #3e3e3e
+		font-size: 14px
+		line-height: 24px
+		font-family: "OpenSansBold"
+		margin-right: 25px
+	.date
+		color: #8d8d8d
+		font-size: 13px
+		line-height: 22px
+	.comment-text
+		font-size: 14px
+		line-height: 22px
+		color: #3e3e3e
+	.reply
+		display: block
+		margin: 0 auto
+		color: #868686
+		font-size: 13px
+		margin-top: 10px
+		margin-bottom: 25px
+		margin-left: 65px
+	.comment-drop
+		.comments-item
+			margin-left: 70px	
+/*post end*/
+@import "media"
+@import "app/libs/font-awesome/scss/font-awesome"
