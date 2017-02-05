@@ -75,11 +75,7 @@ gulp.task('imagemin', function() {
 			svgoPlugins: [{removeViewBox: false}],
 			use: [pngquant()]
 		})))
-<<<<<<< HEAD
 		.pipe(gulp.dest('./img')); 
-=======
-		.pipe(gulp.dest('dist/img')); 
->>>>>>> b1e1a6a3a9328d0f2892569d307dde3c8d4818c6
 });
 
 gulp.task('buildhtml', function() {
@@ -88,11 +84,7 @@ gulp.task('buildhtml', function() {
       prefix: '@@'
     }))
     .pipe(gulpRemoveHtml())
-<<<<<<< HEAD
     .pipe(gulp.dest('./'));
-=======
-    .pipe(gulp.dest('dist/'));
->>>>>>> b1e1a6a3a9328d0f2892569d307dde3c8d4818c6
 });
 
 gulp.task('removedist', function() { return del.sync('dist'); });
@@ -102,7 +94,6 @@ gulp.task('build', ['removedist', 'buildhtml', 'imagemin', 'sass', 'libs'], func
 	var buildCss = gulp.src([
 		'app/css/fonts.min.css',
 		'app/css/main.min.css'
-<<<<<<< HEAD
 		]).pipe(gulp.dest('./css'));
 
 	var buildFiles = gulp.src([
@@ -112,17 +103,6 @@ gulp.task('build', ['removedist', 'buildhtml', 'imagemin', 'sass', 'libs'], func
 	var buildFonts = gulp.src('app/fonts/**/*').pipe(gulp.dest('./fonts'));
 
 	var buildJs = gulp.src('app/js/**/*').pipe(gulp.dest('./js'));
-=======
-		]).pipe(gulp.dest('dist/css'));
-
-	var buildFiles = gulp.src([
-		'app/.htaccess'
-	]).pipe(gulp.dest('dist'));
-
-	var buildFonts = gulp.src('app/fonts/**/*').pipe(gulp.dest('dist/fonts'));
-
-	var buildJs = gulp.src('app/js/**/*').pipe(gulp.dest('dist/js'));
->>>>>>> b1e1a6a3a9328d0f2892569d307dde3c8d4818c6
 
 });
 
@@ -137,13 +117,8 @@ gulp.task('deploy', function() {
 	});
 
 	var globs = [
-<<<<<<< HEAD
 	'./**',
 	'./.htaccess',
-=======
-	'dist/**',
-	'dist/.htaccess',
->>>>>>> b1e1a6a3a9328d0f2892569d307dde3c8d4818c6
 	];
 	return gulp.src(globs, {buffer: false})
 	.pipe(conn.dest('/path/to/folder/on/server'));
