@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29bfc2e8-43d7-4a2d-a71e-d9fa7f80c4f1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/1.png" afterPath="$PROJECT_DIR$/img/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/2.png" afterPath="$PROJECT_DIR$/img/2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/3.png" afterPath="$PROJECT_DIR$/img/3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/4.png" afterPath="$PROJECT_DIR$/img/4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/5.png" afterPath="$PROJECT_DIR$/img/5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/6.png" afterPath="$PROJECT_DIR$/img/6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/amazon.png" afterPath="$PROJECT_DIR$/img/amazon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/banner-pic.png" afterPath="$PROJECT_DIR$/img/banner-pic.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/foto.png" afterPath="$PROJECT_DIR$/img/foto.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/google.png" afterPath="$PROJECT_DIR$/img/google.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/kubernetes.png" afterPath="$PROJECT_DIR$/img/kubernetes.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/managment.png" afterPath="$PROJECT_DIR$/img/managment.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map.png" afterPath="$PROJECT_DIR$/img/map.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/microsoft.png" afterPath="$PROJECT_DIR$/img/microsoft.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/monitoring.png" afterPath="$PROJECT_DIR$/img/monitoring.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog.html" afterPath="$PROJECT_DIR$/blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post.html" afterPath="$PROJECT_DIR$/post.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="90" column="182" lean-forward="false" selection-start-line="90" selection-start-column="182" selection-end-line="90" selection-end-column="182" />
+            <state relative-caret-position="407">
+              <caret line="302" column="26" lean-forward="true" selection-start-line="302" selection-start-column="26" selection-end-line="302" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -83,6 +65,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>f_contact</find>
+      <find>toptal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -260,12 +243,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486925528675</updated>
-      <workItem from="1486925531157" duration="1056000" />
+      <workItem from="1486925531157" duration="1576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1056000" />
+    <option name="totallyTimeSpent" value="1576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1600" y="24" width="1920" height="1056" extended-state="6" />
@@ -318,14 +301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1783">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -334,10 +309,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1783">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="90" column="182" lean-forward="false" selection-start-line="90" selection-start-column="182" selection-end-line="90" selection-end-column="182" />
+        <state relative-caret-position="407">
+          <caret line="302" column="26" lean-forward="true" selection-start-line="302" selection-start-column="26" selection-end-line="302" selection-end-column="26" />
           <folding />
         </state>
       </provider>
