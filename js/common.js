@@ -30,5 +30,6 @@ $( "#message-button" ).click(function() {
         dataType: "json"
     });
 
+    alert("Thanks. We'll contact you back shortly!")
     return false;
 });
