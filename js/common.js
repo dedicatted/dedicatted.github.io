@@ -18,3 +18,17 @@ $(function() {
 			});
 
 });
+
+$( "#message-button" ).click(function() {
+	var email = $("#message-email").val();
+	var messasge = $("#message-text").val();
+
+    $.ajax({
+        url: "https://formspree.io/contact@dedicatted.com",
+        method: "POST",
+        data: {email: email, messasge: messasge},
+        dataType: "json"
+    });
+
+    return false;
+});
