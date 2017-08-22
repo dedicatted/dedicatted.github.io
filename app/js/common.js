@@ -1,6 +1,17 @@
 $(function() {
 
 	// Custom JS
+	window.onscroll = function() {
+		var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+
+		if (scrolled > 1) {
+			$(".up-btn").css({"opacity": "0.6"})
+		}
+		if (scrolled < 1) {
+			$(".up-btn").css({"opacity": "0"})
+		}
+	}
+
 	$(".mob-menu").click(function () {
 		$(".top-nav ul").slideToggle();
 	})
@@ -17,6 +28,11 @@ $(function() {
 			$('body,html').animate({scrollTop: top}, 1500);
 		}
 	});
+
+	$(".up-btn").on("click", function(event) {
+		event.preventDefault();
+		$('body,html').animate({scrollTop: 0}, 1500);
+	})
 
 });
 
@@ -35,7 +51,7 @@ $( "#message-button" ).click(function() {
 				$(this).css({"display": "none"})
 				email.removeClass("error")
 			})
-		}, 1500)	
+		}, 1500)
 	}
 
 	if(message.val() === "") {
