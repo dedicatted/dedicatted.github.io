@@ -13,37 +13,37 @@
 
 	<!-- Template Basic Images Start -->
 	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<link rel="shortcut icon" href="../img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="../img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-touch-icon-114x114.png">
 	<!-- Template Basic Images End -->
 
 	<!-- Bootstrap (latest) Grid Styles Only -->
-	
+
 
 	<!-- Header CSS (first screen styles from header.min.css) - inserted in the build of the project -->
-	<style>::-webkit-input-placeholder{color:#666;opacity:1}:-moz-placeholder{color:#666;opacity:1}::-moz-placeholder{color:#666;opacity:1}:-ms-input-placeholder{color:#666;opacity:1}body input:focus:required:invalid,body textarea:focus:required:invalid{color:#666}body input:required:valid,body textarea:required:valid{color:#666}.container{max-width:980px;margin:0 auto;position:relative}.container:after,.container:before{content:"";display:table}.container:after{clear:both}a,li,ul{list-style:none;padding:0;margin:0}a:hover{text-decoration:none;color:#222}a{text-decoration:none;color:#222;cursor:pointer}p{margin:0;padding:0}body{font-size:16px;min-width:320px;position:relative;line-height:1.6;font-family:roboto,sans-serif;overflow-x:hidden}.header{padding-top:18px;padding-bottom:12px}.logo{float:left}.logo:after,.logo:before{content:"";display:table}.logo:after{clear:both}.logo .logo-img{float:left;margin-right:14px}.logo .logo-title{float:left;text-transform:uppercase;font-weight:700;font-size:37px;line-height:32px;color:#333;padding-top:8px}.logo p{float:left;font-size:13px;font-family:ArialRegular;color:#7c7c7c;padding-left:21px}.logo span{color:#1bb844}.top-nav{float:right;padding-top:8px;position:relative}.top-nav ul:after,.top-nav ul:before{content:"";display:table}.top-nav ul:after{clear:both}.top-nav li{float:left;margin-right:50px;position:relative}.top-nav li:last-child{margin-right:18px}.top-nav .with-drop{padding-bottom:7px;margin-right:30px;padding-right:20px;z-index:10}.top-nav .with-drop:hover .drop-menu{display:block!important}.top-nav .with-drop::after{position:absolute;content:'';right:0;top:17px;width:11px;height:6px;background-image:url(img/drop-menu-icon.png);background-repeat:no-repeat}.top-nav a{font-size:16px;line-height:36px;font-family:OpenSansRegular;padding:10px 0}.top-nav a:hover{text-decoration:underline}.top-nav .drop-menu{position:absolute;width:215px;top:42px;padding-left:52px;padding-top:12px;padding-bottom:35px;background-color:#e9e9e9;display:none!important}.top-nav .drop-menu li{float:none;margin-right:0}.top-nav .drop-menu li::after{position:absolute;content:'';width:13px;height:1px;top:14px;left:-28px;background-color:#c9c9c9}.top-nav .drop-menu a{color:#797777;font-size:14px;padding:0;line-height:16px}.mob-menu{text-align:right}.mob-menu .fa-bars{color:#222;font-size:30px;padding:3px;margin-top:8px;margin-right:20px}</style>
+	<style>@@include('header.min.css')</style>
 
 	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
 	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)};function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n};function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
 
 	<!-- Load Fonts CSS Start -->
 	<script>
-		loadCSS( "css/fonts.min.css?ver=1.0.0", false, "all" ); // Loading fonts, if the site is located in a subfolder
+		loadCSS( "../css/fonts.min.css?ver=1.0.0", false, "all" ); // Loading fonts, if the site is located in a subfolder
 		// loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" ); // Loading fonts, if the site is at the root
 	</script>
 	<!-- Load Fonts CSS End -->
 
 	<!-- Load Custom CSS Start -->
-	
-	<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>
+	<!--<Deject>--><script>loadCSS( "../header.min.css?ver=1.0.0", false, "all" );</script><!--</Deject>-->
+	<script>loadCSS( "../css/main.min.css?ver=1.0.0", false, "all" );</script>
 	<!-- Load Custom CSS End -->
 
 	<!-- Load Custom CSS Compiled without JS Start -->
 	<noscript>
-		<link rel="stylesheet" href="css/fonts.min.css">
-		<link rel="stylesheet" href="css/main.min.css">
+		<link rel="stylesheet" href="../css/fonts.min.css">
+		<link rel="stylesheet" href="../css/main.min.css">
 	</noscript>
 	<!-- Load Custom CSS Compiled without JS End -->
 
@@ -59,29 +59,50 @@
 </head>
 
 <body>
+	<script>
+
+	/**
+	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+	/*
+	var disqus_config = function () {
+	this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	};
+	*/
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+	s.src = 'https://dedicatted-1.disqus.com/embed.js';
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
 	<div class="post-html">
 		<header class="header">
 			<div class="container">
 				<div class="logo">
 					<a href="https://github.com/dedicatted/dedicatted.github.io">
-						<div class="logo-img"><img src="img/logo2.png"></div>
+						<div class="logo-img"><img src="../img/logo.png"></div>
 						<!-- <div class="logo-title">dedicat<span>t</span>ed<br><p>devops as a service</p></div>				 -->
 					</a>
 				</div>
 				<div class="mob-menu"><i class="fa fa-bars" aria-hidden="true"></i></div>
 				<nav class="top-nav">
 					<ul>
-						<li><a href="#services">Services</a></li>
-						<li><a href="#works">How it works</a></li>
-						<li class="with-drop"><a href="#technologies">Technologies</a>
+						<li><a href="index.html#services">Services</a></li>
+						<li><a href="index.html#works">How it works</a></li>
+						<li class="with-drop"><a href="index.html#technologies">Technologies</a>
 							<ul class="drop-menu">
-								<li><a href="#clouds">Clouds Platforms</a></li>
-								<li><a href="#docker">Docker</a></li>
-								<li><a href="#tools">Tools</a></li>
+								<li><a href="index.html#clouds">Clouds Platforms</a></li>
+								<li><a href="index.html#docker">Docker</a></li>
+								<li><a href="index.html#tools">Tools</a></li>
 							</ul>
 						</li>
-						<li><a href="#">Blog </a></li>
-						<li><a href="#contact">Contacts</a></li>
+						<li><a href="blog.html">Blog </a></li>
+						<li><a href="index.html#contact">Contacts</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -89,7 +110,7 @@
 		<div class="breadcrumbs">
 			<div class="container">
 				<ul>
-					<li class="active"><a href="">Home</a></li>
+					<li class="active"><a href="index.html">Home</a></li>
 					<li>Website Traffic</li>
 				</ul>
 			</div>
@@ -132,7 +153,7 @@
 			</ul>
 			<h2>The Importance Of Keywords</h2>
 			<h3>If you are a beginner, you might not know the importance of keyword research yet but remember that it’s one of the most important things that can make or break your SEO success. That’s what it’s extremely crucial to find keywords. And not just any keywords, they have to be low competitive long tail keywords. Here’s the importance of using long tail keywords.</h3>
-			<div class="foto"><img src="img/foto.png"></div>
+			<div class="foto"><img src="../img/foto.png"></div>
 			<div class="list-wrapper">
 				<div class="list-wrapper-item">
 					<span>
@@ -163,7 +184,7 @@
 						4.
 					</span>
 					<h3>
-						While using long tail keywords within your content, make sure to also use relevant keywords with your articles so you can rank for multiple keywords from one web page. 
+						While using long tail keywords within your content, make sure to also use relevant keywords with your articles so you can rank for multiple keywords from one web page.
 					</h3>
 				</div>
 			</div>
@@ -182,58 +203,65 @@
 				<h3>It helps in gaining loyal audience.</h3>
 				<h3>Every blogger works out seriously on driving traffic to their blog. If you are a newbie in blogging, then there is main thing that you should know is all about SEO.</h3>
 			</div>
-			<form class="form-right" id="f_contact">
+
+			<div id="disqus_thread" class="disqus-wrapper"></div>
+
+			<!-- <a href="http://foo.com/bar.html#disqus_thread">Link</a> -->
+
+			<!-- <form class="form-right" id="f_contact">
 				<div class="form-title">Comments</div>
 				<h2>Send a comment</h2>
-				<p>Your comment<span>*</span></p>	
-				<textarea placeholder="Your comment" name="message" ></textarea>				
+				<p>Your comment<span>*</span></p>
+				<textarea placeholder="Your comment" name="message" ></textarea>
 				<p>E-mail<span>*</span></p>
 				<input type="text" name="name" placeholder="E-mail">
 				<div class="submit-wrapper">
 					<input type="submit" class="submit" value="Send">
 				</div>
-			</form>
-			<div class="comments-wrapper">
+			</form> -->
+			<!-- <div class="comments-wrapper">
+
+
 				<div class="comments-item">
-					<div class="comment-img"><img src="img/comments-icon.png"></div>
+					<div class="comment-img"><img src="../img/comments-icon.png"></div>
 					<div class="comment-info">
 						<span class="name">John Newman</span>
 						<span class="date">26 JAN  10:46</span>
 						<div class="comment-text">Bluehost is a Good Hosting Company and Pricing is Also Low but Hostgator is also Good i mostly Like Hostgator What you say about Hostgator?</div>
-					</div>					
+					</div>
 					<a class="reply">reply</a>
 					<div class="comment-drop">
 						<div class="comments-item">
-							<div class="comment-img"><img src="img/comments-icon2.png"></div>
+							<div class="comment-img"><img src="../img/comments-icon2.png"></div>
 							<div class="comment-info">
 								<span class="name">Nick Jonas</span>
 								<span class="date">26 JAN  10:34</span>
 								<div class="comment-text">Bluehost is undoubtedly one of the best hosting providers. I am using shared hosting and want to upgrade to the Bluehost VPS hosting. Thanks for sharing this brief review and offer.</div>
-							</div>					
-							<a class="reply">reply</a>					
+							</div>
+							<a class="reply">reply</a>
 						</div>
 					</div>
 				</div>
 				<div class="comments-item">
-					<div class="comment-img"><img src="img/comments-icon3.png"></div>
+					<div class="comment-img"><img src="../img/comments-icon3.png"></div>
 					<div class="comment-info">
 						<span class="name">Salma</span>
 						<span class="date">26 JAN  8:46</span>
 						<div class="comment-text">Thank you for such a comprehensive review of the service. I have used BlueHost in the past, but I must admit. Appreciate you for taking the time out to bring out this post!</div>
-					</div>					
-					<a class="reply">reply</a>					
+					</div>
+					<a class="reply">reply</a>
 				</div>
 				<div class="comments-item">
-					<div class="comment-img"><img src="img/comments-icon.png"></div>
+					<div class="comment-img"><img src="../img/comments-icon.png"></div>
 					<div class="comment-info">
 						<span class="name">Pavel</span>
 						<span class="date">26 JAN  7:09</span>
 						<div class="comment-text">Thank you for such a comprehensive review of the service. I have used BlueHost in the past, but I must admit, there are so many layers to the service which I understood only after reading your review. <br>
 							Appreciate you for taking the time out to bring out this post!</div>
-						</div>					
-						<a class="reply">reply</a>					
+						</div>
+						<a class="reply">reply</a>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 		<footer class="footer">
@@ -249,8 +277,8 @@
 		</footer>
 		<!-- Optimized loading JS Start -->
 		<script>var scr = {"scripts":[
-			{"src" : "js/libs.min.js", "async" : false},
-			{"src" : "js/common.js", "async" : false}
+			{"src" : "../js/libs.min.js", "async" : false},
+			{"src" : "../js/common.js", "async" : false}
 			]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
 		</script>
 		<!-- Optimized loading JS End -->
@@ -264,5 +292,8 @@
 			ga('send', 'pageview');
 
 		</script>
+
+
+		<script id="dsq-count-scr" src="//dedicatted-1.disqus.com/count.js" async></script>
 	</body>
 	</html>
