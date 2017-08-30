@@ -75,7 +75,7 @@ gulp.task('imagemin', function() {
 			svgoPlugins: [{removeViewBox: false}],
 			use: [pngquant()]
 		})))
-		.pipe(gulp.dest('./img')); 
+		.pipe(gulp.dest('./img'));
 });
 
 gulp.task('buildhtml', function() {
@@ -89,7 +89,7 @@ gulp.task('buildhtml', function() {
 
 gulp.task('removedist', function() { return del.sync('dist'); });
 
-gulp.task('build', ['removedist', 'buildhtml', 'imagemin', 'sass', 'libs'], function() {
+gulp.task('build', ['removedist', 'buildhtml',  'imagemin', 'sass', 'libs'], function() {
 
 	var buildCss = gulp.src([
 		'app/css/fonts.min.css',
